@@ -30,7 +30,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-       <img src="./img/logo-spacehack.svg" style="height: 130px; margin-left: -5%;" alt="Responsive image" href="#page-top"></a>
+       <img src="./img/logo-spacehack.svg" style="height: 150px; margin-left: -3%;" alt="Responsive image" href="./index.html"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -50,10 +50,7 @@
                   <a class="nav-link js-scroll-trigger" href="#services">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="nav-link js-scroll-trigger" href="./index.html#contact">Contact</a>
                   </li>
           </ul>
         </div>
@@ -68,7 +65,27 @@
       </div>
     </header>
 <!-- Clients -->
-<section class="py-5">
+<button class="button-transparent-1 portfolio-item" data-toggle="modal" >
+  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+    <div class="portfolio-hover">
+      <div class="portfolio-hover-content">
+        <i class="fas fa-plus fa-3x"></i>
+      </div>
+    </div>
+    <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+  </a>
+</button>
+<button class="button-transparent-2 portfolio-item" data-toggle="modal">
+  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+    <div class="portfolio-hover">
+      <div class="portfolio-hover-content">
+        <i class="fas fa-plus fa-3x"></i>
+      </div>
+    </div>
+    <img class="img-fluid" src="img/portfolio/icon.png" alt="">
+  </a>
+</button>
+<!-- <section class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-md-3 col-sm-6">
@@ -93,7 +110,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
       <div class="container">
@@ -111,7 +128,7 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src="img/portfolio/01-thumbnail.png" style="width: 350px; height: 252px;" alt="">
+              <img src="img/portfolio/02-thumbnail 2.jpg" style="width: 350px; height: 252px;" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>Mission ICON</h4>
@@ -153,8 +170,7 @@
               <img src="img/portfolio/04-thumbnail.jpg" style="width: 350px; height: 252px;" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Lines</h4>
-              <p class="text-muted">Branding</p>
+              <h4>Messages from Stations</h4>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -167,8 +183,7 @@
               <img src="img/portfolio/05-thumbnail.jpg" style="width: 350px; height: 252px;" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Southwest</h4>
-              <p class="text-muted">Website Design</p>
+              <h4>The Antimatter Revolution</h4>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -181,8 +196,7 @@
               <img src="img/portfolio/06-thumbnail.jpg" style="width: 350px; height: 252px;" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Window</h4>
-              <p class="text-muted">Photography</p>
+              <h4>Orbital ATK’s Pegasus XL</h4>
             </div>
           </div>
         </div>
@@ -195,65 +209,53 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Services</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
       <div class="row text-center">
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-circle fa-stack-2x text-primary" ></i>
+            <i class="fas fa-rocket fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">E-Commerce</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <h4 class="service-heading">Rockets Tracker</h4>
+          <p class="text-muted">Be aware of all rockets launches all around the world. Nasa, SpaceX and much more.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-sticky-note fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Responsive Design</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <h4 class="service-heading">Hi Crew</h4>
+          <p class="text-muted">Send a message to the trip crew. Now, you can talk with the astronauts.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-star fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Web Security</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <h4 class="service-heading">Space Explorer</h4>
+          <p class="text-muted">Get to know better the cosmos. Take a deep look in the missions and the outcomes.</p>
         </div>
       </div>
     </div>
   </section>
-    <!-- Team -->
+    <!-- Team
     <section class="bg-light" id="team">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Get to know us better.</h3>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Kay Garland</h4>
-              <p class="text-muted">Lead Designer</p>
+              <h4>Bruna Vaz</h4>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/bruna-vaz/">
                     <i class="fab fa-linkedin-in"></i>
                   </a>
                 </li>
@@ -263,21 +265,10 @@
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>Larry Parker</h4>
-              <p class="text-muted">Lead Marketer</p>
+              <h4>Iara Saba</h4>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/iara-saba-3106a2155/">
                     <i class="fab fa-linkedin-in"></i>
                   </a>
                 </li>
@@ -287,21 +278,10 @@
           <div class="col-sm-4">
               <div class="team-member">
                 <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-                <h4>Larry Parker</h4>
-                <p class="text-muted">Lead Marketer</p>
+                <h4>Ana Clarisse</h4>
                 <ul class="list-inline social-buttons">
                   <li class="list-inline-item">
-                    <a href="#">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/ana-clarice-r-silva-pereira-519613116/">
                       <i class="fab fa-linkedin-in"></i>
                     </a>
                   </li>
@@ -311,21 +291,10 @@
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-              <h4>Diana Pertersen</h4>
-              <p class="text-muted">Lead Developer</p>
+              <h4>Daniele ASCipriano</h4>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/dascipriano/">
                     <i class="fab fa-linkedin-in"></i>
                   </a>
                 </li>
@@ -339,7 +308,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     
 
@@ -349,7 +318,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Tell us how can we help you!</h3>
           </div>
         </div>
         <div class="row">
@@ -441,22 +410,17 @@
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-lg-8 mx-auto">
+              <div class="col-md-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Mission ICON</h2>
-                  <p class="item-intro text-muted">Launch of the Pegasus XL rocket is scheduled for Oct. 26, 2018.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>The Stargazer jet will take off from the Skid Strip at the Cape. About 50 miles offshore of Daytona Beach, Florida, the Pegasus XL will be dropped with the engine igniting five seconds later boosting ICON to orbit. The Stargazer is a mobile launch platform and the only one of its kind in the world.
-
-                      ICON will study the ionosphere, where terrestrial weather meets space weather. This dynamic zone high in Earth’s atmosphere can be a source of great beauty such as the aurora, but can also be disruptive to radio communications and satellites and astronaut health. ICON will help determine the physical processes at play in this “frontier of space,” thus paving the way for mitigating their effects on our technology, communications systems and society.
-                      </p>
+                  <h2 class="text-uppercase">Falcon 9 Block 5</h2>
+                  <p class="item-intro text-muted">SpaceX</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-thumbnail.jpg" alt="">
+                  <p>Missão: Es'hail 2</p>
                   <ul class="list-inline">
-                    <li>Photo credit: NASA/Dan Quinajon</li>
+                    <li>Date: 19 de Novembro, 2018</li>
+                    <li>Space Launch Complex 4E, Vandenberg AFB, CA</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
                 </div>
               </div>
             </div>
@@ -466,7 +430,7 @@
     </div>
 
     <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -476,24 +440,17 @@
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-lg-8 mx-auto">
+              <div class="col-md-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Es'hail 2 Lauch</h2>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>SpaceX's eighteenth mission of 2018 will be the launch of Es'hail 2 to a Geostationary Transfer Orbit for Es’hailSat, the Qatar Satellite Company. It will also feature an amateur radio payload.
-
-                      The new satellite will be positioned at the 26° East hotspot position for TV broadcasting and significantly adds to the company’s ability to provide high quality, premium DTH television content across the Middle East and North Africa. It will feature Ku-band and Ka-band transponders to provide TV distribution and government services to strategic stakeholders and commercial customers who value broadcasting and communications independence, interference resilience, quality of service and wide geographical coverage.
-                      
-                      Es'hail 2 will also provide the first Amateur Radio geostationary communication capability linking Brazil and India. It will carry two AMSAT P4A (Phase 4A) Amateur Radio transponders.</p>
+                  <h2 class="text-uppercase">Ionospheric Connection Explorer</h2>
+                  <p class="item-intro text-muted">Mission: ICON (Ionospheric Connection Explorer)</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/icon.png" alt="">
+                  <p>The Ionospheric Connection Explorer will study the frontier of space: the dynamic zone high in our atmosphere where Earth weather and space weather meet. ICON will launch from Cape Canaveral Air Force Station in Florida aboard an Northrop Grumman Pegasus XL rocket.</p>
                   <ul class="list-inline">
-                    <li>Mission success criteria: Successful separation & deployment of the Es'hail 2 satellite into the target orbit</li>
-                    <li>Rocket: Falcon 9</li>
-                    <li>Location: OCISLY, Atlantic Ocean</li>
+                    <li>October 26, 2018</li>
+                    <li> Cape Canaveral Air Force Station, FL</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
                 </div>
               </div>
             </div>

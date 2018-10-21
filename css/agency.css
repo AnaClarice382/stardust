@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
-body {
+ body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
@@ -14,15 +14,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: rgba(40, 137, 196, 0.9);;
 }
 
 a:hover {
-  color: #fec503;
+  color:rgba(40, 137, 196, 0.9);;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: rgba(40, 137, 196, 0.9) !important;
 }
 
 h1,
@@ -75,13 +75,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color:rgba(40, 137, 196, 0.9);
+  border-color: rgba(40, 137, 196, 0.9);
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: rgba(40, 137, 196, 0.9) !important;
+  border-color: rgba(40, 137, 196, 0.9) !important;
   color: white;
 }
 
@@ -91,12 +91,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background:rgba(40, 137, 196, 0.9);;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: rgba(40, 137, 196, 0.9);;
   text-shadow: none;
 }
 
@@ -123,17 +123,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color:rgba(40, 137, 196, 0.9);
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: rgba(40, 137, 196, 0.9);
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: rgba(40, 137, 196, 0.9);
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -146,7 +146,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: rgba(40, 137, 196, 0.9);
 }
 
 @media (min-width: 992px) {
@@ -250,12 +250,12 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   position: absolute;
-  width: 350px;
-  height: 252px;
+  width: 100%;
+  height: 100%;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(49, 137, 196, 0.9);
+  background: rgba(40, 137, 196, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -312,6 +312,49 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.modal {
+  position: fixed;
+  top: 15%;
+  right: 15%;
+  bottom: 15%;
+  left: 15%;
+}
+
+.button-transparent-1 {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  position: fixed;
+  left: 12%;
+  height: 39px;
+  width: 3%;
+  bottom: 44%;
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+  opacity: 0.01;
+}
+
+.button-transparent-2 {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  bottom: 40%;
+  position: relative;
+  left: 23%;
+  position: fixed;
+  height: 32px;
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+  opacity: 0.01;
+  width: 3%;
+}
+
 .portfolio-modal {
   padding-right: 0px !important;
 }
@@ -322,13 +365,16 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-content {
-  padding: 100px 0;
-  text-align: center;
+  text-align: left;
 }
 
 .portfolio-modal .modal-content h2 {
   font-size: 3em;
   margin-bottom: 15px;
+}
+
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
 }
 
 .portfolio-modal .modal-content p {
